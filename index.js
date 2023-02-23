@@ -1,4 +1,5 @@
-const { Client } = require("discord.js") 
+const { Client } = require("discord.js")
+require("dotenv").config()
 const client = new Client()
 
 const time = new Date().toLocaleString("jp-JP", { timeZone:  "Asia/Tokyo" })
