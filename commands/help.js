@@ -42,5 +42,21 @@ module.exports = client => {
    
    message.reply(embed)
    }
+    
+   if (command === "dev/s") {
+   const bot = client.user.id
+   
+   message.channel.send(`${bot} の開発状況...\n`<@${bot.id}> の開発状況...\n \n実装済み\n✅youtube search(id, word search)\n✅ボイスチャット参加/退出 通知\n✅サーバー参加/退出 通知\n🚫サーバーメンバー自動取得\n🚫サーバーBANユーザー取得\n✅サーバーアイコン取得\n✅ユーザーアイコン取得\n✅ユーザー情報取得\n🚫ユーザーBAN & Kick\n🚫ロール付与\n🚫招待リンク作成\n \n実装予定\n🚫指定ユーザーのダイレクトメッセージ`)
+   }
+   
+   if (command === "owner") {
+   const guild = message.guild
+   const owner = guild.owner.user.
+   
+   const embed = new MessageEmbed()
+   .setColor("GOLD")
+   .setAuthor(owner.tag)
+   .setImage(owner.displayAvatarURL({ dynamic: true, size: 512 }))
+   }
  })
 }
