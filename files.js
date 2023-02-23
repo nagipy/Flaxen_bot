@@ -13,9 +13,6 @@ module.exports = client => {
   const voice = require(`./logs/voice`)
   voice(client)
   
-  const status = require("./status")
-  status(client)
-  
   const rpc = require("./rpc")
   rpc(client)
 }
