@@ -1,5 +1,11 @@
 # Flaxen_bot
 
+このコードは全て VSCode で動作試験を行っています。
+\
+推奨は、 VSCode ですが Replit でも動くと思います。
+
+//////////
+
 Download package
 \
 npm i discord.js@12.5.3 dotenv date-fns-timezone ms yt-search
