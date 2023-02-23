@@ -5,17 +5,20 @@ module.exports = client => {
 
   rpc.on("ready", () => {
     rpc.setActivity({
-      state: "Angel",
-      largeImageKey: "guild_icon",
-      largeImageText: "Mahiru",
-      partyId: "ae488379-351d-4a4f-ad32-2b9b01c91657",
-      partySize: 7,
-      partyMax: 12,
+      details: "Text 1",
+      state: "Text 2",
+      largeImageKey: "",
+      largeImageText: "image text",
+      smallImageKey: "",
+      // smallImageText: "image text",
+      partyId: "",
+      partySize: 1,
+      partyMax: 5,
       instance: false,
       buttons: [
         {
-          label: "Twitter",
-          url: "https://twitter.com/_nagipoyo"
+          label: "Youtube",
+          url: "https://youtube.com/"
         }
       ]
     })
