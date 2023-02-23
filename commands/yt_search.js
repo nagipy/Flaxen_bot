@@ -8,7 +8,7 @@ module.exports = client => {
 
     const content = message.content;
 
-    if (content.match("!search")) {
+    if (content.match("y!search")) {
       let search = content;
       search = search.replace(/n!search /g, "");
 
@@ -38,7 +38,7 @@ module.exports = client => {
       })
     }
 
-    if (content.match("!id_search")) {
+    if (content.match("y!id_search")) {
       let search = content;
       search = search.replace(/n!id_search /g, "");
 
