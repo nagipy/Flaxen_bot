@@ -42,3 +42,11 @@ yt_search のみ専用 prefix を採用しています。
 ・Youtube 動画 サーチャー
 \
 ・Discord RPC
+
+ 実装予定(書き込み予定)
+ \
+ ・Webhook送信
+ 
+ 制作中
+ \
+ ・指定ユーザーのダイレクトメッセージ
